@@ -1,0 +1,67 @@
+.container{     
+    display:flexbox;
+    width: 900px;
+}
+
+.navigation {
+    list-style: none;
+    display: inline-block;
+    margin-right: 150px;
+    padding: -50px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+   
+   }
+
+   p{
+    font-family: 'Open Sans',sans-serif;
+    font-size: small;
+       
+   }
+
+.navigation:hover {
+    transition: all 150ms ease-in-out;
+    color: #c8815f;
+    cursor:pointer;
+
+}
+
+
+.horizontal{
+    width: 50px;
+    color: #724060;
+}
+
+
+.card{
+    width: 300px;
+    height: 250px;
+}
+
+.card:hover{
+  box-shadow: #724060 10px;
+}
+
+.third{
+    height: 280px;
+}
+
+.one{
+    width: 299px;
+    height: 150px;
+    
+}
+
+.three{
+    height:200px;
+    width: 300px;
+    align-self: center;
+}
+
+.shopping-bags{
+    display: inline;
+    width: 10px;
+    height: 150px;
+    margin-left: 100px;
+    
+}
